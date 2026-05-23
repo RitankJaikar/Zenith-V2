@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  /* Override default tailwind font families */
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Custom Zenith Aesthetic Variables */
+  --color-bg-dark: #0a0a0a;
+  --color-accent-blue: #3b82f6;
+  --text-glow: rgba(59, 130, 246, 0.5);
+}
+
+/* Global resets using theme variables */
+body {
+  background-color: var(--color-bg-dark);
+  color: #e5e5e5;
+  font-family: var(--font-sans);
+}
+
+/* Specific utilities helper classes from your source theme */
+.digital-font {
+  font-family: var(--font-mono);
+  letter-spacing: -0.05em;
+}
+
+.glow-text {
+  text-shadow: 0 0 20px var(--text-glow);
+}
