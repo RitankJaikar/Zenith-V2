@@ -1,5 +1,7 @@
 # Zenith-V2
 
+**[🌐 Live Link](https://zenith-time.vercel.app/)**
+
 A minimal, high-aesthetic productivity dashboard optimized for deep focus and zero distraction. Inspired by clean digital architecture, Zenith-V2 brings tracking instruments into a unified dynamic interface using React and Tailwind CSS v4.
 
 ---
