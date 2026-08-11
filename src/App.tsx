@@ -85,7 +85,7 @@ function App() {
 
         {/* 2. Timer View */}
         <div
-          className={`flex flex-col items-center space-y-8 pt-24 pb-16 ${currTab === 1 ? "block" : "hidden"}`}
+          className={`flex flex-col justify-center items-center min-h-screen space-y-8 pt-24 pb-16 ${currTab === 1 ? "block" : "hidden"}`}
         >
           {timers.map((timer) => (
             <div
@@ -108,7 +108,7 @@ function App() {
 
         {/* 3. Stopwatch View */}
         <div
-          className={`flex flex-col items-center space-y-8 pt-24 pb-16 ${currTab === 2 ? "block" : "hidden"}`}
+          className={`flex flex-col justify-center items-center min-h-screen space-y-8 pt-24 pb-16 ${currTab === 2 ? "block" : "hidden"}`}
         >
           {stopwatches.map((sw) => (
             <div
